@@ -85,7 +85,20 @@
     <section id="projects" class="panel" aria-labelledby="projects-heading">
       <h2 id="projects-heading">Proyectos</h2>
       <p>Próximamente agregaré mis proyectos. Aquí aparecerán aplicaciones web, APIs y demos interactivos.</p>
-      <div class="projects-grid" aria-hidden="true">
+      <div class="projects-grid" aria-live="polite">
+        <article class="project-card in-progress" tabindex="0" role="article" aria-labelledby="proj-cinema-title">
+          <div class="project-meta">
+            <h3 id="proj-cinema-title">CINEMA TICKET BOOKING</h3>
+            <span class="project-status" aria-hidden="true">En desarrollo</span>
+          </div>
+          <p class="project-desc">Sistema de reserva de entradas para cines: selección de butacas, pago y gestión de sesiones. Actualmente en desarrollo.</p>
+          <p class="project-links">
+            <!-- Cuando tengas la URL, reemplaza # por la URL real -->
+            <a class="proj-link" href="#" data-proj-url="" aria-disabled="true">Acceder (próximamente)</a>
+            <a class="proj-repo" href="#" aria-hidden="true" style="display:none">Repositorio</a>
+          </p>
+        </article>
+
         <article class="project-card empty" tabindex="0">
           <h3>Próximamente</h3>
           <p>Preparando contenido para demostrar habilidades fullstack.</p>
