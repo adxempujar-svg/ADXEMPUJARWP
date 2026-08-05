@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agustin Prueba — Fullstack Engineer</title>
+  <meta name="description" content="Portfolio futurista de Agustin Prueba — Fullstack Engineer. Contacto, conocimientos, educación y proyectos." />
+  <!-- Fuente futurista -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header" role="banner" aria-label="Encabezado del portfolio">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="logo" id="logo" aria-hidden="false" role="img" aria-label="Logo de identidad"></div>
+        <div class="brand-text">
+          <h1 class="site-title">Agustin Prueba</h1>
+          <p class="site-role">Fullstack Engineer</p>
+        </div>
+      </div>
+
+      <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Abrir menú">☰</button>
+        <ul id="nav-list">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Conocimientos</a></li>
+          <li><a href="#education">Educación</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="about" class="hero" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="visually-hidden">Sobre Agustin</h2>
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h2 class="name">Agustin Prueba</h2>
+          <p class="role">Fullstack Engineer</p>
+          <p class="lead">Diseño y desarrollo de aplicaciones modernas con foco en rendimiento, escalabilidad y experiencia de usuario.</p>
+          <p class="contact-cta">
+            <a class="btn-primary" href="mailto:agustinprueba@mail.com">Enviar email</a>
+            <a class="btn-outline" href="https://www.linkedin.com/in/agustin-prueba" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+        <aside class="hero-right" aria-hidden="true">
+          <div class="avatar-glow" id="avatar"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="panel" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Conocimientos</h2>
+      <ul class="skills-list" role="list">
+        <li class="skill">Java</li>
+        <li class="skill">Python</li>
+        <li class="skill">C#</li>
+        <li class="skill">JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="education" class="panel" aria-labelledby="education-heading">
+      <h2 id="education-heading">Educación</h2>
+      <ul class="education-list" role="list">
+        <li class="edu-card">
+          <h3 class="edu-title">Desarrollo Web</h3>
+          <p class="edu-org">CoderHouse</p>
+        </li>
+        <li class="edu-card">
+          <h3 class="edu-title">Ingeniería Informática</h3>
+          <p class="edu-org">UADE</p>
+        </li>
+        <li class="edu-card">
+          <h3 class="edu-title">Analista en Informática</h3>
+          <p class="edu-org">UADE</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="panel" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Proyectos</h2>
+      <p>Próximamente agregaré mis proyectos. Aquí aparecerán aplicaciones web, APIs y demos interactivos.</p>
+      <div class="projects-grid" aria-hidden="true">
+        <article class="project-card empty" tabindex="0">
+          <h3>Próximamente</h3>
+          <p>Preparando contenido para demostrar habilidades fullstack.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="panel" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contacto</h2>
+      <p>Correo: <a href="mailto:agustinprueba@mail.com">agustinprueba@mail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/agustin-prueba" target="_blank" rel="noopener">agustin-prueba</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>© <span id="year"></span> Agustin Prueba — Fullstack Engineer</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
